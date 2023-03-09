@@ -52,18 +52,20 @@ div#piezas{
 
 button{
     /* display: inline-block; */
+    font-family: 'Tilt Neon';
     background-color: rgb(42, 96, 153);
     font-size: x-large;
     color: white;
     border-radius: 7px;
     border: 2px solid black;
-    margin-left: 20px;
-    padding-left: 40px; 
-    padding-right: 40px; 
+    padding-left: 55px; 
+    padding-right: 55px; 
     padding-top: 20px;
     padding-bottom: 20px;
     cursor: pointer;
     /* font-weight: bold; */
+    margin-right: 75px;
+    margin-left: 75px;
 }
 
 p{
@@ -83,4 +85,23 @@ p{
         margin-left: 4.05%;
         margin-top: 20px;
     }
+}
+
+span{
+    color: rgb(42, 96, 153);
+}
+span#resaltado{
+    font-weight: bold;
+}
+
+button#left{
+    float: left;
+}
+
+button#center{
+    margin-left: 280px;
+}
+
+button#right{
+    float: right;
 }
