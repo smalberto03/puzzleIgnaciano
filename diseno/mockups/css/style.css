@@ -26,12 +26,14 @@ ul {
 
 ul li{
     display: inline-block;
+    text-align: center;
     margin-right: 80px;
     font-size: x-large;
     color: white;
     border-right: 2px solid white;
     padding-right: 80px;
     cursor: pointer;
+    margin-top: 20px;
     /* font-weight: bold; */
 }
 
@@ -83,7 +85,7 @@ button.sonido{
     border-radius: 0px;
     border: 0px solid black;
     padding: 0px;
-    float: right; 
+    /* float: right;  */
     display: inline-block;
     margin-left: 5px;
 }
@@ -99,6 +101,17 @@ button#next{
 img#imgnext{
     width: 50px;
     height: auto;
+}
+
+div.aviso{
+    margin-top: 300px;
+    font-size: x-large;
+}
+
+div.aviso2
+{
+    margin-top: 150px;
+    font-size: x-large;
 }
 
 #sonidoon{
@@ -144,3 +157,79 @@ button#center{
 button#right{
     float: right;
 }
+
+/* ----------- ESTILO DE AVISOS LEGALES---------- */
+div#aviso_legal{
+    width: auto;
+    height: 350px;
+    background-color: white;
+    margin: 0 auto;
+    /* border: 2px solid rgb(42, 96, 153); */
+}
+
+div#aviso_legal p, div#aviso_legal h1{
+    text-align: center;
+}
+
+#btnnn{
+    font-family: 'Tilt Neon';
+    background-color: rgb(42, 96, 153);
+    font-size: x-large;
+    color: white;
+    border-radius: 7px;
+    border: 2px solid black;
+    padding-left: 55px; 
+    padding-right: 55px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    /* font-weight: bold; */
+    margin-right: 75px;
+    margin-left: 654px;
+}
+
+/* --------ESTILO DE CREDITOS--------- */
+div#creditos div{
+    margin-top: 0px;
+    color: white;
+    background-color: rgb(42, 96, 153);
+    font-size: x-large;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+div#creditos li{
+    list-style: none;
+}
+
+div#creditos span{
+    color: rgb(32, 74, 118);
+    font-weight: bold;
+}
+
+div#creditos{
+    font-family: 'Tilt Neon';
+}
+
+#btnnnn{
+    font-family: 'Tilt Neon';
+    background-color: rgb(42, 96, 153);
+    font-size: x-large;
+    color: white;
+    border-radius: 7px;
+    border: 2px solid black;
+    padding-left: 55px; 
+    padding-right: 55px; 
+    padding-top: 20px;
+    padding-bottom: 20px;
+    cursor: pointer;
+    /* font-weight: bold; */
+    margin-right: 75px;
+    margin-left: 654px;
+    margin-top: 40px;
+}
+
+    
